@@ -1,13 +1,14 @@
 # Swift Exercicios
 
-Repositorio para reunir exercicios de Swift e playgrounds de estudo.
+Repositorio com exercicios de Swift organizados por assunto.
 
 ## Estrutura
 
-- `Playgrounds/`: playgrounds usados nos estudos
-- `ConsoleApps/`: exercicios com `main.swift`
+- `Playgrounds/01-Fundamentos/`: logica, condicionais, repeticao e arrays
+- `Playgrounds/02-Concorrencia/`: funcoes assincronas e paralelismo
+- `Playgrounds/03-Protocolos-E-Generics/`: protocolos, structs e CRUD generico
 
 ## Como abrir
 
-- Playgrounds: abra o arquivo `.playground` no Xcode
-- Console app: abra a pasta no Xcode ou rode o `main.swift`
+- Abra qualquer arquivo `.playground` no Xcode
+- Cada pasta representa um assunto especifico para facilitar estudo e revisao
