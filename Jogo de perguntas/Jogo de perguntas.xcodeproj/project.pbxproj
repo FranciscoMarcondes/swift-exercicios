@@ -35,16 +35,6 @@
 			path = "Jogo de perguntas";
 			sourceTree = "<group>";
 		};
-		237E9C182F9A28A900DE3094 /* Jogo de perguntasTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Jogo de perguntasTests";
-			sourceTree = "<group>";
-		};
-		237E9C222F9A28A900DE3094 /* Jogo de perguntasUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Jogo de perguntasUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				237E9C082F9A28A700DE3094 /* Jogo de perguntas */,
-				237E9C182F9A28A900DE3094 /* Jogo de perguntasTests */,
-				237E9C222F9A28A900DE3094 /* Jogo de perguntasUITests */,
 				237E9C072F9A28A700DE3094 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				237E9C172F9A28A900DE3094 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				237E9C182F9A28A900DE3094 /* Jogo de perguntasTests */,
-			);
 			name = "Jogo de perguntasTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				237E9C212F9A28A900DE3094 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				237E9C222F9A28A900DE3094 /* Jogo de perguntasUITests */,
 			);
 			name = "Jogo de perguntasUITests";
 			packageProductDependencies = (
