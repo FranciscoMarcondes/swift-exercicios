@@ -1,18 +1,23 @@
 # macOS
 .DS_Store
 
-# Xcode user data
+# Xcode
+DerivedData/
+build/
 xcuserdata/
 *.xcuserstate
-
-# Build folders
-build/
-DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
 
 # Swift Package Manager
 /.build/
 /Packages/
 Package.resolved
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace/xcuserdata/
 
 # Fastlane
 fastlane/report.xml
@@ -29,3 +34,6 @@ Carthage/Build/
 # Archives and logs
 *.xcarchive
 *.log
+
+# Nested repositories
+.git/

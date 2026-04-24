@@ -1,63 +1,39 @@
-# Jogo de perguntas
+# Swift Exercicios
 
-Projeto iOS em SwiftUI organizado em camadas para facilitar manutencao, testes e evolucao.
+Repositorio com exercicios de Swift organizados por assunto.
 
-## Arquitetura
+## Estrutura
 
-- Models/Tema.swift
-- Models/Pergunta.swift
-- Domain/PerguntasRepository.swift
-- Domain/UseCases/JogarPerguntasUseCase.swift
-- Data/PerguntasLocaisRepository.swift
-- Presentation/JogoPerguntasViewModel.swift
-- Presentation/ContentView.swift
+- `Playgrounds/01-Fundamentos/`: logica, condicionais, repeticao e arrays
+- `Playgrounds/02-Concorrencia/`: funcoes assincronas e paralelismo
+- `Playgrounds/03-Protocolos-E-Generics/`: protocolos, structs e CRUD generico
+- `Jogo de perguntas/`: app iOS em SwiftUI com arquitetura em camadas e quiz por tema
 
-## Funcionalidades
+## Como abrir
 
-- Selecionar tema no inicio do jogo
-- Fazer 5 perguntas do tema escolhido
-- Exibir 4 opcoes por pergunta (1 correta)
-- Informar se acertou ou errou
-- Quando errar, mostrar a resposta correta
-- Ao final mostrar acertos e incorretas
-- Voltar para selecao de temas para reiniciar
+- Abra qualquer arquivo `.playground` no Xcode
+- Cada pasta representa um assunto especifico para facilitar estudo e revisao
 
-## Opcionais implementados
+## Projeto SwiftUI
 
-- Perguntas aleatorias a cada rodada
-- Banco com mais de 5 perguntas por tema
-- Nome do jogador e dialog de ranking no final
-- Niveis de dificuldade (facil, medio, dificil)
-- Opcao de pular pergunta com limite de 2 pulos
+O projeto `Jogo de perguntas` implementa um quiz com:
 
-## Requisitos
+- selecao de tema
+- 5 perguntas por rodada
+- dificuldade facil, media e dificil
+- nome do jogador
+- opcao de pular pergunta
+- resultado final com ranking
 
-- Xcode 15+
-- iOS 17+
+### Arquitetura
 
-## Como executar
+- `Models/`
+- `Domain/`
+- `Data/`
+- `Presentation/`
 
-1. Abra o projeto:
-   - Jogo de perguntas/Jogo de perguntas.xcodeproj
+### Como executar
+
+1. Abra `Jogo de perguntas/Jogo de perguntas.xcodeproj`
 2. Selecione um simulador iOS
 3. Rode com Cmd + R
-
-## Boas praticas aplicadas
-
-- Separacao de responsabilidades
-- Regra de negocio isolada em UseCase
-- Dados desacoplados por protocolo de repository
-- ViewModel como fonte de estado da tela
-- UI simples e previsivel para estudo
-
-## Publicacao no GitHub
-
-Se quiser publicar este projeto como repositorio proprio, use:
-
-1. cd "jogo-de-perguntas"
-2. git init
-3. git add .
-4. git commit -m "feat: jogo de perguntas em camadas"
-5. git branch -M main
-6. git remote add origin <URL_DO_REPOSITORIO>
-7. git push -u origin main
